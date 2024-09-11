@@ -1,34 +1,49 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "footlight MT light",Helvetica, Arial, sans-serif;
     margin: 0px;
+    font-size: 20px;
+    background-color: yellow;
 }
 
 #logo {
     margin: 0px;
-    padding: 8px;
+    padding: 0px;
     font-family: "Fredoka One", sans-serif;
     width: 16%;
-    text-shadow: 
-    1px 1px 0px darkorange,
-    -1px 1px 0px darkorange,
-    1px -1px 0px darkorange,
-    -1px -1px 0px darkorange;
+    
 }
 
+#yellow-text {
+    text-shadow: 
+    1px 1px 0px yellow,
+    -1px 1px 0px yellow,
+    1px -1px 0px yellow,
+    -1px -1px 0px yellow;
+}
+
+#red-text {
+    text-shadow: 
+    1px 1px 0px red,
+    -1px 1px 0px red,
+    1px -1px 0px red,
+    -1px -1px 0px red;
+}
 ul {
     margin: 0px;
 }
 
 body > header {
-    background-color: orange;
+    background-color: black;
     display: flex;
-    color: white;
+    color: black;
     height: 10vh;
     align-items: center;
     justify-content: space-around;
 }
 #nav-ul {
     display: flex;
+    font-family: "footlight MT light",Helvetica, Arial, sans-serif;
+    
 }
 
 #nav-ul > li {
@@ -63,17 +78,35 @@ body > main article {
     width: 80%;
 }
 
+#article-header {
+    font-weight: bold;
+}
+
 form {
     text-align: center;
 }
 
 body > footer {
-    background-color: orange;
+    background-color: black;
 
 }
 
 img {
     border-radius: 10%;
+    height: 350px;
+    align-items: center;
+    padding: 10px;
+}
+
+body > main > footer > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+body > footer > h2 {
+    color: yellow;
 }
 
 #footer-ul{
